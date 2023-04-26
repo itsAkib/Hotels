@@ -1,0 +1,163 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+  box-sizing: border-box;
+}
+
+.search-icon .fas {
+  color: white;
+}
+
+.shopping-cart .fas {
+  color: white;
+}
+
+.fas {
+  margin-right: 5px;
+}
+
+.navbar {
+  background: transparent;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #687693;
+  line-height: 1.8em;
+}
+
+.room {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+.card-body ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.card-body ul li {
+  display: flex;
+  align-items: center;
+  color: #777777;
+}
+
+.card-body h4 {
+  font-size: 35px;
+  color: #fc4c4c;
+}
+
+.section-title-s2 {
+  margin-bottom: 60px;
+}
+
+.row g-3 {
+  display: block;
+  margin: 0 5px;
+}
+
+.form_submit {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.col-auto {
+  text-align: center;
+}
+
+.site-footer .upper-footer {
+  padding: 90px 0;
+}
+
+.site-footer .container {
+  position: relative;
+}
+
+.site-footer .about-widget ul {
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.site-footer .about-widget ul li {
+  font-size: 22px;
+  float: left;
+}
+
+.site-footer ul {
+  list-style-type: none;
+}
+
+.site-footer li {
+  color: #fff;
+}
+
+.site-footer .about-widget ul li a {
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  line-height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.site-footer .widget-title h3 {
+  font-size: 20px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+  font-family: "Futura PT Demi";
+}
+
+.site-footer .widget-title {
+  margin-bottom: 30px;
+}
+
+.site-footer .link-widget ul li a {
+  text-decoration: none;
+}
+
+.site-footer .link-widget ul li a {
+  color: #fff;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .card-body ul li i {
+    margin-right: 10px;
+    margin-left: 4px;
+  }
+}
+
+@media (min-width:1024px) {
+  .card-body ul li i {
+    margin-right: 10px;
+    margin-left: 4px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .Our {
+    width: 50%;
+  }
+}
